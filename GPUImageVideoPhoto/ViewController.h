@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GPUImage.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController  <GPUImageVideoCameraDelegate>
+{
+    dispatch_queue_t main_queue;
+    dispatch_queue_t sub_queue;
+}
+
+- (IBAction)takePhotoNow:(id)sender;
+
 
 @end
