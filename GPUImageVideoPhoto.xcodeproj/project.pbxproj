@@ -26,7 +26,7 @@
 		84517B4D19B4AA6700B6C18E /* shutter40.png in Resources */ = {isa = PBXBuildFile; fileRef = 84517B4C19B4AA6700B6C18E /* shutter40.png */; };
 		84517B5419B4AC5E00B6C18E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84517B5319B4AC5E00B6C18E /* CoreMedia.framework */; };
 		84517B5819B4AC9200B6C18E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84517B5719B4AC9200B6C18E /* AVFoundation.framework */; };
-		8483772619B561820076107E /* README.md.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = 8483772519B561820076107E /* README.md.webarchive */; };
+		8483772619B561820076107E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8483772519B561820076107E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +81,7 @@
 		84517B5319B4AC5E00B6C18E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		84517B5519B4AC7D00B6C18E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		84517B5719B4AC9200B6C18E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		8483772519B561820076107E /* README.md.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = README.md.webarchive; sourceTree = "<group>"; };
+		8483772519B561820076107E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		84517AF919B4A93500B6C18E = {
 			isa = PBXGroup;
 			children = (
-				8483772519B561820076107E /* README.md.webarchive */,
+				8483772519B561820076107E /* README.md */,
 				84517B0B19B4A93500B6C18E /* GPUImageVideoPhoto */,
 				84517B2A19B4A93500B6C18E /* GPUImageVideoPhotoTests */,
 				84517B0419B4A93500B6C18E /* Frameworks */,
@@ -310,7 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8483772619B561820076107E /* README.md.webarchive in Resources */,
+				8483772619B561820076107E /* README.md in Resources */,
 				84517B1E19B4A93500B6C18E /* Images.xcassets in Resources */,
 				84517B1019B4A93500B6C18E /* InfoPlist.strings in Resources */,
 				84517B1919B4A93500B6C18E /* Main.storyboard in Resources */,
