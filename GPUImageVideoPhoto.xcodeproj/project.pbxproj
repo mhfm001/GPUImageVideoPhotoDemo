@@ -258,6 +258,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = mhfm001;
 				TargetAttributes = {
+					84517B0119B4A93500B6C18E = {
+						DevelopmentTeam = 3GZ7Y2G7DK;
+						ProvisioningStyle = Automatic;
+					};
 					84517B2219B4A93500B6C18E = {
 						TestTargetID = 84517B0119B4A93500B6C18E;
 					};
@@ -268,6 +272,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -460,6 +465,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GZ7Y2G7DK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/admin/Documents/Application2,
@@ -473,6 +482,7 @@
 				);
 				INFOPLIST_FILE = "GPUImageVideoPhoto/GPUImageVideoPhoto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -482,6 +492,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GZ7Y2G7DK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/admin/Documents/Application2,
@@ -495,6 +509,7 @@
 				);
 				INFOPLIST_FILE = "GPUImageVideoPhoto/GPUImageVideoPhoto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

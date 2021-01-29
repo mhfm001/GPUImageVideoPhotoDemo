@@ -7,6 +7,7 @@ iOS用です。GPUImageのビデオデバイスから、任意のタイミング
 
 ## 概要 ##
 GPUImageのビデオデバイス(GPUImageVideoCamera)のdelegate；willOutputSampleBuffer(ビデオ撮影からサンプルバッファーを得る)が出力するイメージはYUV形式であり、これをRGBに変換してUIImageデータを取り出している。  
+UIImageデータだと使い勝手がよくなる。
 
 
 ## 必要なFramework ##
@@ -20,6 +21,7 @@ GPUImageのビデオデバイス(GPUImageVideoCamera)のdelegate；willOutputSam
 * CoreGraphics.framework
 * UIKit.framework
 * Foundation.framework
+
 
 ## 参考 ##
 * GPUImage github <https://github.com/BradLarson/GPUImage>
